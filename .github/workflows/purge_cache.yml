@@ -1,0 +1,16 @@
+name: Purge jsDelivr Cache
+
+on:
+  push:
+    paths:
+      - 'offerings.js'
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait for GitHub to stabilize
+        run: sleep 5 # Gives GitHub a moment to finish the file update
+      - name: Purge jsDelivr
+        run: |
+          curl -i https://purge.jsdelivr.net/gh/gwgeorgian/ctl_offerings@main/offerings.js
