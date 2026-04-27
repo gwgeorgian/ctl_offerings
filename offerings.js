@@ -1,1 +1,1 @@
-window.globalOfferings = ["Teaching @ Georgian", "Faculty Focus", "Blackboard Ultra"];
+window.globalOfferings = ["Teaching @ Georgian", "Faculty Focus", "Blackboard Ultra", "Screenpal"];
