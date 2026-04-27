@@ -9,8 +9,11 @@ jobs:
   purge:
     runs-on: ubuntu-latest
     steps:
-      - name: Wait for GitHub to stabilize
-        run: sleep 5 # Gives GitHub a moment to finish the file update
+      - name: Wait for GitHub to propagate
+        run: sleep 15 # Increased to 15 seconds to be safe
       - name: Purge jsDelivr
         run: |
+          # Purge the main file
           curl -i https://purge.jsdelivr.net/gh/gwgeorgian/ctl_offerings@main/offerings.js
+          # Purge the versionless file
+          curl -i https://purge.jsdelivr.net/gh/gwgeorgian/ctl_offerings/offerings.js
