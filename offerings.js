@@ -1,1 +1,1 @@
-window.globalOfferings = ["Option 1", "Option 2", "Option 3"];
+window.globalOfferings = ["Teaching @ Georgian", "Teach Stewardship", "Teaching with AI - A practice guide to a new era of learning", "Teaching with care"];
