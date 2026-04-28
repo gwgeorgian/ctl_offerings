@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Wait for GitHub to propagate
-        run: sleep 15 # Increased to 15 seconds to be safe
+        run: sleep 600 # Increased to 10 minutes to be safe
       - name: Purge jsDelivr
         run: |
           # Purge the main file
