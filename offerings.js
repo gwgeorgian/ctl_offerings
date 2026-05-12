@@ -1,1 +1,1 @@
-window.globalOfferings = ["Teaching @ Georgian", "Faculty Focus", "Blackboard Ultra", "Screenpal","Skoden", "Tech Stewardship", "Key Insights", "Teaching and Learning"];
+window.globalOfferings = ["Assessment Design Institute: Designing Meaningful Assessments in the AI Era", "Skill sprint: SYL Hackathon", "Brave Teaching Journeys Community of Practice: Exploring the Faculty Competency Framework", "SYL Info Session"];
