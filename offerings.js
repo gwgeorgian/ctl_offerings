@@ -1,1 +1,1 @@
-window.globalOfferings = ["Assessment Design Institute: Designing Meaningful Assessments in the AI Era", "Skill sprint: SYL Hackathon", "Brave Teaching Journeys Community of Practice: Exploring the Faculty Competency Framework", "SYL Info Session"];
+window.globalOfferings = ["Assessment Design Institute: Designing Meaningful Assessments in the AI Era", "Brave Teaching Journeys Community of Practice: Exploring the Faculty Competency Framework", "Instructional Skills Workshop", "Skill sprint: SYL Hackathon", "SYL Info Session"];
